@@ -4,6 +4,7 @@
 *.pyc
 *.swp
 .DS_Store
+.vscode
 .atom/
 .build/
 .buildlog/
@@ -11,6 +12,8 @@
 .svn/
 .swiftpm/
 migrate_working_dir/
+firebase.json
+firebase_options.dart
 
 # IntelliJ related
 *.iml

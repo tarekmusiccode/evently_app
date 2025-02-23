@@ -1,6 +1,6 @@
 import 'package:flutter/widgets.dart';
 
-extension setNewValueToInt on int {
+extension SetNewValueToInt on int {
   String toAnotherString() {
     return "";
   }
