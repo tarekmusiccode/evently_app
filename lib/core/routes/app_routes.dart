@@ -1,4 +1,6 @@
+import 'dart:developer';
 import 'package:evently_app/core/routes/pages_route_name.dart';
+import 'package:evently_app/modules/forgetPassword/forget_password_view.dart';
 import 'package:evently_app/modules/onBoarding/on_boarding_view.dart';
 import 'package:evently_app/modules/signIn/sign_in_view.dart';
 import 'package:evently_app/modules/signUp/sign_up_view.dart';
@@ -27,6 +29,11 @@ abstract class AppRoutes {
       case PagesRouteName.signUp:
         return MaterialPageRoute(
           builder: (context) => const SignUpView(),
+          settings: settings
+        );
+      case PagesRouteName.forgetPassword:
+        return MaterialPageRoute(
+          builder: (context) => const ForgetPasswordView(),
           settings: settings
         );
       default:
